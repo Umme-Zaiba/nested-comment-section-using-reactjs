@@ -1,5 +1,3 @@
-//App.js
-
 import { Oval } from 'react-loader-spinner';
 import React, { useState } from 'react';
 import axios from 'axios';
@@ -7,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFrown } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
-function GfGWeatherApp() {
+function WeatherApp() {
 	const [input, setInput] = useState('');
 	const [weather, setWeather] = useState({
 		loading: false,
@@ -134,4 +132,4 @@ function GfGWeatherApp() {
 	);
 }
 
-export default GfGWeatherApp;
+export default WeatherApp;
